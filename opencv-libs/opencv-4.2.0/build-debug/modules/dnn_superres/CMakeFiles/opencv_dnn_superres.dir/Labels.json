@@ -1,0 +1,48 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/dnn_superres/include/opencv2/dnn_superres.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dnn_superres",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/dnn_superres/src/dnn_superres.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dnn_superres",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/dnn_superres/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dnn_superres",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/cvconfig.h"
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_dnn_superres",
+			"Module"
+		],
+		"name" : "opencv_dnn_superres"
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/rapid/include/opencv2/rapid.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/rapid/src/rapid.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/rapid/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/cvconfig.h"
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_rapid",
+			"Module"
+		],
+		"name" : "opencv_rapid"
+	}
+}

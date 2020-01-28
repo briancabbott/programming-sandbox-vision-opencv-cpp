@@ -1,0 +1,991 @@
+#use_cache "/Users/brian/.opencv_dir/opencv-4.2.0/.cache"
+#do_unpack "ippicv_2019_mac_intel64_general_20180723.tgz" "fe6b2bb75ae0e3f19ad3ae1a31dfa4a2" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/32e315a5b106a7b89dbed51c28f8120a48b368b4/ippicv/ippicv_2019_mac_intel64_general_20180723.tgz" "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/3rdparty/ippicv"
+#check_md5 "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/ippicv/fe6b2bb75ae0e3f19ad3ae1a31dfa4a2-ippicv_2019_mac_intel64_general_20180723.tgz"
+#mkdir "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/3rdparty/ippicv"
+#unpack "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/3rdparty/ippicv" "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/ippicv/fe6b2bb75ae0e3f19ad3ae1a31dfa4a2-ippicv_2019_mac_intel64_general_20180723.tgz"
+#do_unpack "v0.1.1f.zip" "b624b995ec9c439cbc2e9e6ee940d3a2" "https://github.com/opencv/ade/archive/v0.1.1f.zip" "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/3rdparty/ade"
+#check_md5 "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/ade/b624b995ec9c439cbc2e9e6ee940d3a2-v0.1.1f.zip"
+#mkdir "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/3rdparty/ade"
+#unpack "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/3rdparty/ade" "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/ade/b624b995ec9c439cbc2e9e6ee940d3a2-v0.1.1f.zip"
+#do_copy "boostdesc_bgm.i" "0ea90e7a8f3f7876d450e4149c97c74f" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i" "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d"
+#missing "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/boostdesc_bgm.i"
+#cmake_download "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/0ea90e7a8f3f7876d450e4149c97c74f-boostdesc_bgm.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i"
+#try 1
+#   Trying 151.101.64.133:443...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (151.101.64.133) port 443 (#0)
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.65.0
+# Accept: */*
+# 
+# Mark bundle as not supporting multiuse
+# HTTP/1.1 200 OK
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# Strict-Transport-Security: max-age=31536000
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# ETag: W/"139ab7a08715e2b905613f443862574515c4fd9e821a9c674888d97c1b3d52b2"
+# Content-Type: text/plain; charset=utf-8
+# Cache-Control: max-age=300
+# X-Geo-Block-List:
+# Via: 1.1 varnish-v4
+# X-GitHub-Request-Id: C06E:7E87:167C8A:1C8171:5E29E205
+# Content-Length: 14852
+# Accept-Ranges: bytes
+# Date: Thu, 23 Jan 2020 18:12:24 GMT
+# Via: 1.1 varnish
+# Connection: keep-alive
+# X-Served-By: cache-pao17445-PAO
+# X-Cache: MISS
+# X-Cache-Hits: 0
+# X-Timer: S1579803144.870861,VS0,VE213
+# Vary: Authorization,Accept-Encoding
+# Access-Control-Allow-Origin: *
+# X-Fastly-Request-ID: 164f4b8609e2ea51635618aa286cbf29a9406f41
+# Expires: Thu, 23 Jan 2020 18:17:24 GMT
+# Source-Age: 0
+# 
+# [1870 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [1946 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/0ea90e7a8f3f7876d450e4149c97c74f-boostdesc_bgm.i"
+#copy "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/boostdesc_bgm.i" "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/0ea90e7a8f3f7876d450e4149c97c74f-boostdesc_bgm.i"
+#do_copy "boostdesc_bgm_bi.i" "232c966b13651bd0e46a1497b0852191" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i" "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d"
+#missing "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/boostdesc_bgm_bi.i"
+#cmake_download "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/232c966b13651bd0e46a1497b0852191-boostdesc_bgm_bi.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i"
+#try 1
+#   Trying 151.101.64.133:443...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (151.101.64.133) port 443 (#0)
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.65.0
+# Accept: */*
+# 
+# Mark bundle as not supporting multiuse
+# HTTP/1.1 200 OK
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# Strict-Transport-Security: max-age=31536000
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# ETag: W/"4826fff60b087a49709554dafb067b321cfd3826aa40ce919b0871053ebb8c9b"
+# Content-Type: text/plain; charset=utf-8
+# Cache-Control: max-age=300
+# X-Geo-Block-List:
+# Via: 1.1 varnish-v4
+# X-GitHub-Request-Id: CC4C:4F7C:15AF1D:1BFC32:5E29E207
+# Content-Length: 14864
+# Accept-Ranges: bytes
+# Date: Thu, 23 Jan 2020 18:12:24 GMT
+# Via: 1.1 varnish
+# Connection: keep-alive
+# X-Served-By: cache-pao17436-PAO
+# X-Cache: MISS
+# X-Cache-Hits: 0
+# X-Timer: S1579803144.210720,VS0,VE194
+# Vary: Authorization,Accept-Encoding
+# Access-Control-Allow-Origin: *
+# X-Fastly-Request-ID: fa899b375eea4e7992264255f3f52b941ed15482
+# Expires: Thu, 23 Jan 2020 18:17:24 GMT
+# Source-Age: 0
+# 
+# [1870 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [1958 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/232c966b13651bd0e46a1497b0852191-boostdesc_bgm_bi.i"
+#copy "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/boostdesc_bgm_bi.i" "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/232c966b13651bd0e46a1497b0852191-boostdesc_bgm_bi.i"
+#do_copy "boostdesc_bgm_hd.i" "324426a24fa56ad9c5b8e3e0b3e5303e" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i" "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d"
+#missing "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/boostdesc_bgm_hd.i"
+#cmake_download "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/324426a24fa56ad9c5b8e3e0b3e5303e-boostdesc_bgm_hd.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i"
+#try 1
+#   Trying 151.101.64.133:443...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (151.101.64.133) port 443 (#0)
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.65.0
+# Accept: */*
+# 
+# Mark bundle as not supporting multiuse
+# HTTP/1.1 200 OK
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# Strict-Transport-Security: max-age=31536000
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# ETag: W/"7fd15e7540ef308b1c7e97f031125e97d7229e28d22be6a7ff31772cd8f8a132"
+# Content-Type: text/plain; charset=utf-8
+# Cache-Control: max-age=300
+# X-Geo-Block-List:
+# Via: 1.1 varnish-v4
+# X-GitHub-Request-Id: EE6C:5D8B:E4353:1280DF:5E29E208
+# Content-Length: 7832
+# Accept-Ranges: bytes
+# Date: Thu, 23 Jan 2020 18:12:24 GMT
+# Via: 1.1 varnish
+# Connection: keep-alive
+# X-Served-By: cache-pao17425-PAO
+# X-Cache: MISS
+# X-Cache-Hits: 0
+# X-Timer: S1579803145.528365,VS0,VE148
+# Vary: Authorization,Accept-Encoding
+# Access-Control-Allow-Origin: *
+# X-Fastly-Request-ID: d2cea5b46539f2bb01ab22e9a5a3d51eda8dabce
+# Expires: Thu, 23 Jan 2020 18:17:24 GMT
+# Source-Age: 0
+# 
+# [1872 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [442 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/324426a24fa56ad9c5b8e3e0b3e5303e-boostdesc_bgm_hd.i"
+#copy "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/boostdesc_bgm_hd.i" "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/324426a24fa56ad9c5b8e3e0b3e5303e-boostdesc_bgm_hd.i"
+#do_copy "boostdesc_binboost_064.i" "202e1b3e9fec871b04da31f7f016679f" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i" "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d"
+#missing "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/boostdesc_binboost_064.i"
+#cmake_download "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/202e1b3e9fec871b04da31f7f016679f-boostdesc_binboost_064.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i"
+#try 1
+#   Trying 151.101.64.133:443...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (151.101.64.133) port 443 (#0)
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.65.0
+# Accept: */*
+# 
+# Mark bundle as not supporting multiuse
+# HTTP/1.1 200 OK
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# Strict-Transport-Security: max-age=31536000
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# ETag: W/"4723baaf43945808d40babe317a8aa14bd7c15c423474e30254268edc41734db"
+# Content-Type: text/plain; charset=utf-8
+# Cache-Control: max-age=300
+# X-Geo-Block-List:
+# Via: 1.1 varnish-v4
+# X-GitHub-Request-Id: C06E:7E87:167C9A:1C819C:5E29E208
+# Content-Length: 138093
+# Accept-Ranges: bytes
+# Date: Thu, 23 Jan 2020 18:12:24 GMT
+# Via: 1.1 varnish
+# Connection: keep-alive
+# X-Served-By: cache-pao17429-PAO
+# X-Cache: MISS
+# X-Cache-Hits: 0
+# X-Timer: S1579803145.779210,VS0,VE216
+# Vary: Authorization,Accept-Encoding
+# Access-Control-Allow-Origin: *
+# X-Fastly-Request-ID: cdf58dee9e8c0b31b981e8be8cf189e273638be0
+# Expires: Thu, 23 Jan 2020 18:17:24 GMT
+# Source-Age: 0
+# 
+# [1869 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2589 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2589 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [7911 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/202e1b3e9fec871b04da31f7f016679f-boostdesc_binboost_064.i"
+#copy "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/boostdesc_binboost_064.i" "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/202e1b3e9fec871b04da31f7f016679f-boostdesc_binboost_064.i"
+#do_copy "boostdesc_binboost_128.i" "98ea99d399965c03d555cef3ea502a0b" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i" "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d"
+#missing "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/boostdesc_binboost_128.i"
+#cmake_download "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/98ea99d399965c03d555cef3ea502a0b-boostdesc_binboost_128.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i"
+#try 1
+#   Trying 151.101.64.133:443...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (151.101.64.133) port 443 (#0)
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.65.0
+# Accept: */*
+# 
+# Mark bundle as not supporting multiuse
+# HTTP/1.1 200 OK
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# Strict-Transport-Security: max-age=31536000
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# ETag: W/"b2c81e307f7da9c321ec903b8f8b558891767ecaf461e5d562df3a014f1bc9e9"
+# Content-Type: text/plain; charset=utf-8
+# Cache-Control: max-age=300
+# X-Geo-Block-List:
+# Via: 1.1 varnish-v4
+# X-GitHub-Request-Id: C814:6C3D:E28AA:12544C:5E29E207
+# Content-Length: 275322
+# Accept-Ranges: bytes
+# Date: Thu, 23 Jan 2020 18:12:25 GMT
+# Via: 1.1 varnish
+# Connection: keep-alive
+# X-Served-By: cache-pao17432-PAO
+# X-Cache: MISS
+# X-Cache-Hits: 0
+# X-Timer: S1579803145.179577,VS0,VE196
+# Vary: Authorization,Accept-Encoding
+# Access-Control-Allow-Origin: *
+# X-Fastly-Request-ID: 74c6491428501af0e527a9ac1cc914688a0b49cf
+# Expires: Thu, 23 Jan 2020 18:17:25 GMT
+# Source-Age: 0
+# 
+# [1870 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2589 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2589 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [14067 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/98ea99d399965c03d555cef3ea502a0b-boostdesc_binboost_128.i"
+#copy "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/boostdesc_binboost_128.i" "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/98ea99d399965c03d555cef3ea502a0b-boostdesc_binboost_128.i"
+#do_copy "boostdesc_binboost_256.i" "e6dcfa9f647779eb1ce446a8d759b6ea" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_256.i" "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d"
+#missing "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/boostdesc_binboost_256.i"
+#cmake_download "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/e6dcfa9f647779eb1ce446a8d759b6ea-boostdesc_binboost_256.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_256.i"
+#try 1
+#   Trying 151.101.64.133:443...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (151.101.64.133) port 443 (#0)
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_256.i HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.65.0
+# Accept: */*
+# 
+# Mark bundle as not supporting multiuse
+# HTTP/1.1 200 OK
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# Strict-Transport-Security: max-age=31536000
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# ETag: W/"5b997f7a5095bc9c8a93824290354769ab18ce9e89a9bc5272191e9848532847"
+# Content-Type: text/plain; charset=utf-8
+# Cache-Control: max-age=300
+# X-Geo-Block-List:
+# Via: 1.1 varnish-v4
+# X-GitHub-Request-Id: EB16:0EA6:6753E:892AB:5E29E207
+# Content-Length: 549754
+# Accept-Ranges: bytes
+# Date: Thu, 23 Jan 2020 18:12:25 GMT
+# Via: 1.1 varnish
+# Connection: keep-alive
+# X-Served-By: cache-pao17420-PAO
+# X-Cache: MISS
+# X-Cache-Hits: 0
+# X-Timer: S1579803146.615391,VS0,VE282
+# Vary: Authorization,Accept-Encoding
+# Access-Control-Allow-Origin: *
+# X-Fastly-Request-ID: af8f5081651a72b7a2ba1acc6a31b57b566492be
+# Expires: Thu, 23 Jan 2020 18:17:25 GMT
+# Source-Age: 0
+# 
+# [1871 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2589 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2589 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [9970 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/e6dcfa9f647779eb1ce446a8d759b6ea-boostdesc_binboost_256.i"
+#copy "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/boostdesc_binboost_256.i" "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/e6dcfa9f647779eb1ce446a8d759b6ea-boostdesc_binboost_256.i"
+#do_copy "boostdesc_lbgm.i" "0ae0675534aa318d9668f2a179c2a052" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_lbgm.i" "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d"
+#missing "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/boostdesc_lbgm.i"
+#cmake_download "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/0ae0675534aa318d9668f2a179c2a052-boostdesc_lbgm.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_lbgm.i"
+#try 1
+#   Trying 151.101.64.133:443...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (151.101.64.133) port 443 (#0)
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_lbgm.i HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.65.0
+# Accept: */*
+# 
+# Mark bundle as not supporting multiuse
+# HTTP/1.1 200 OK
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# Strict-Transport-Security: max-age=31536000
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# ETag: W/"412df6163f7de9c41373df4bb391b31261a2b19423636995be48f03ecdc09e9c"
+# Content-Type: text/plain; charset=utf-8
+# Cache-Control: max-age=300
+# X-Geo-Block-List:
+# Via: 1.1 varnish-v4
+# X-GitHub-Request-Id: FDFA:0EA7:EABE8:12F837:5E29E208
+# Content-Length: 426280
+# Accept-Ranges: bytes
+# Date: Thu, 23 Jan 2020 18:12:26 GMT
+# Via: 1.1 varnish
+# Connection: keep-alive
+# X-Served-By: cache-pao17442-PAO
+# X-Cache: MISS
+# X-Cache-Hits: 0
+# X-Timer: S1579803146.177060,VS0,VE213
+# Vary: Authorization,Accept-Encoding
+# Access-Control-Allow-Origin: *
+# X-Fastly-Request-ID: 52e3703e2d4c98d0da1a511635e5bd8c43ade6a8
+# Expires: Thu, 23 Jan 2020 18:17:26 GMT
+# Source-Age: 0
+# 
+# [1870 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2589 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2589 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [1185 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/0ae0675534aa318d9668f2a179c2a052-boostdesc_lbgm.i"
+#copy "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/boostdesc_lbgm.i" "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/boostdesc/0ae0675534aa318d9668f2a179c2a052-boostdesc_lbgm.i"
+#do_copy "vgg_generated_48.i" "e8d0dcd54d1bcfdc29203d011a797179" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_48.i" "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d"
+#missing "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/vgg_generated_48.i"
+#cmake_download "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/vgg/e8d0dcd54d1bcfdc29203d011a797179-vgg_generated_48.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_48.i"
+#try 1
+#   Trying 151.101.64.133:443...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (151.101.64.133) port 443 (#0)
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# GET /opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_48.i HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.65.0
+# Accept: */*
+# 
+# Mark bundle as not supporting multiuse
+# HTTP/1.1 200 OK
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# Strict-Transport-Security: max-age=31536000
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# ETag: W/"4088bdb23b080aaf16a20fe5c6f28aade41da83d52360bbfb89647fd45829872"
+# Content-Type: text/plain; charset=utf-8
+# Cache-Control: max-age=300
+# X-Geo-Block-List:
+# Via: 1.1 varnish-v4
+# X-GitHub-Request-Id: C490:6C3D:E28B8:125467:5E29E20A
+# Content-Length: 773330
+# Accept-Ranges: bytes
+# Date: Thu, 23 Jan 2020 18:12:26 GMT
+# Via: 1.1 varnish
+# Connection: keep-alive
+# X-Served-By: cache-pao17446-PAO
+# X-Cache: MISS
+# X-Cache-Hits: 0
+# X-Timer: S1579803147.650717,VS0,VE196
+# Vary: Authorization,Accept-Encoding
+# Access-Control-Allow-Origin: *
+# X-Fastly-Request-ID: 26487d3db813997b9db95395219ac0166f83bbbd
+# Expires: Thu, 23 Jan 2020 18:17:26 GMT
+# Source-Age: 0
+# 
+# [1870 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2589 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2589 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [4171 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/vgg/e8d0dcd54d1bcfdc29203d011a797179-vgg_generated_48.i"
+#copy "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/vgg_generated_48.i" "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/vgg/e8d0dcd54d1bcfdc29203d011a797179-vgg_generated_48.i"
+#do_copy "vgg_generated_64.i" "7126a5d9a8884ebca5aea5d63d677225" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_64.i" "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d"
+#missing "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/vgg_generated_64.i"
+#cmake_download "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/vgg/7126a5d9a8884ebca5aea5d63d677225-vgg_generated_64.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_64.i"
+#try 1
+#   Trying 151.101.64.133:443...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (151.101.64.133) port 443 (#0)
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# GET /opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_64.i HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.65.0
+# Accept: */*
+# 
+# Mark bundle as not supporting multiuse
+# HTTP/1.1 200 OK
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# Strict-Transport-Security: max-age=31536000
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# ETag: W/"7a8f61f63966509b27a0e0849138f56c9e46646842193358b6f0c6828211949c"
+# Content-Type: text/plain; charset=utf-8
+# Cache-Control: max-age=300
+# X-Geo-Block-List:
+# Via: 1.1 varnish-v4
+# X-GitHub-Request-Id: 561E:9B24:ED416:133AAA:5E29E204
+# Content-Length: 915012
+# Accept-Ranges: bytes
+# Date: Thu, 23 Jan 2020 18:12:27 GMT
+# Via: 1.1 varnish
+# Connection: keep-alive
+# X-Served-By: cache-pao17447-PAO
+# X-Cache: MISS
+# X-Cache-Hits: 0
+# X-Timer: S1579803147.128836,VS0,VE265
+# Vary: Authorization,Accept-Encoding
+# Access-Control-Allow-Origin: *
+# X-Fastly-Request-ID: 61d137ca76068d999e8b751c5e13bccd939d9d99
+# Expires: Thu, 23 Jan 2020 18:17:27 GMT
+# Source-Age: 0
+# 
+# [1870 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2589 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2589 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [14781 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/vgg/7126a5d9a8884ebca5aea5d63d677225-vgg_generated_64.i"
+#copy "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/vgg_generated_64.i" "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/vgg/7126a5d9a8884ebca5aea5d63d677225-vgg_generated_64.i"
+#do_copy "vgg_generated_80.i" "7cd47228edec52b6d82f46511af325c5" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_80.i" "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d"
+#missing "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/vgg_generated_80.i"
+#cmake_download "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/vgg/7cd47228edec52b6d82f46511af325c5-vgg_generated_80.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_80.i"
+#try 1
+#   Trying 151.101.64.133:443...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (151.101.64.133) port 443 (#0)
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# GET /opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_80.i HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.65.0
+# Accept: */*
+# 
+# Mark bundle as not supporting multiuse
+# HTTP/1.1 200 OK
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# Strict-Transport-Security: max-age=31536000
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# ETag: W/"8f2e935e117e04b83234891f69ca15fba6d12cea73305f0a47a0cf40cb83a3f0"
+# Content-Type: text/plain; charset=utf-8
+# Cache-Control: max-age=300
+# X-Geo-Block-List:
+# Via: 1.1 varnish-v4
+# X-GitHub-Request-Id: FAA6:3369:E289A:125285:5E29E20A
+# Content-Length: 1012932
+# Accept-Ranges: bytes
+# Date: Thu, 23 Jan 2020 18:12:27 GMT
+# Via: 1.1 varnish
+# Connection: keep-alive
+# X-Served-By: cache-pao17444-PAO
+# X-Cache: MISS
+# X-Cache-Hits: 0
+# X-Timer: S1579803148.714277,VS0,VE193
+# Vary: Authorization,Accept-Encoding
+# Access-Control-Allow-Origin: *
+# X-Fastly-Request-ID: 112b29ed41e81b5230fa7b692f4c005f8bdbf588
+# Expires: Thu, 23 Jan 2020 18:17:27 GMT
+# Source-Age: 0
+# 
+# [1869 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2589 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2589 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [14398 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/vgg/7cd47228edec52b6d82f46511af325c5-vgg_generated_80.i"
+#copy "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/vgg_generated_80.i" "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/vgg/7cd47228edec52b6d82f46511af325c5-vgg_generated_80.i"
+#do_copy "vgg_generated_120.i" "151805e03568c9f490a5e3a872777b75" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_120.i" "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d"
+#missing "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/vgg_generated_120.i"
+#cmake_download "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/vgg/151805e03568c9f490a5e3a872777b75-vgg_generated_120.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_120.i"
+#try 1
+#   Trying 151.101.64.133:443...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (151.101.64.133) port 443 (#0)
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# GET /opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_120.i HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.65.0
+# Accept: */*
+# 
+# Mark bundle as not supporting multiuse
+# HTTP/1.1 200 OK
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# Strict-Transport-Security: max-age=31536000
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# ETag: W/"1cb577823815fe30aefd5248048a4451e154a5349903f098a76ee14172772063"
+# Content-Type: text/plain; charset=utf-8
+# Cache-Control: max-age=300
+# X-Geo-Block-List:
+# Via: 1.1 varnish-v4
+# X-GitHub-Request-Id: C2EC:371F:6E82E:91934:5E29E20B
+# Content-Length: 1257733
+# Accept-Ranges: bytes
+# Date: Thu, 23 Jan 2020 18:12:28 GMT
+# Via: 1.1 varnish
+# Connection: keep-alive
+# X-Served-By: cache-pao17449-PAO
+# X-Cache: MISS
+# X-Cache-Hits: 0
+# X-Timer: S1579803148.240004,VS0,VE208
+# Vary: Authorization,Accept-Encoding
+# Access-Control-Allow-Origin: *
+# X-Fastly-Request-ID: 1a9bfd77be19770dea09199ffeef50716f324533
+# Expires: Thu, 23 Jan 2020 18:17:28 GMT
+# Source-Age: 0
+# 
+# [1870 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2589 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2759 bytes data]
+# [2589 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [16384 bytes data]
+# [13438 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/vgg/151805e03568c9f490a5e3a872777b75-vgg_generated_120.i"
+#copy "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/downloads/xfeatures2d/vgg_generated_120.i" "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/xfeatures2d/vgg/151805e03568c9f490a5e3a872777b75-vgg_generated_120.i"
+#do_copy "face_landmark_model.dat" "7505c44ca4eb54b4ab1e4777cb96ac05" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/8afa57abc8229d611c4937165d20e2a2d9fc5a12/face_landmark_model.dat" "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/share/opencv4/testdata/cv/face/"
+#missing "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/share/opencv4/testdata/cv/face//face_landmark_model.dat"
+#cmake_download "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/data/7505c44ca4eb54b4ab1e4777cb96ac05-face_landmark_model.dat" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/8afa57abc8229d611c4937165d20e2a2d9fc5a12/face_landmark_model.dat"
+#try 1
+#check_md5 "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/data/7505c44ca4eb54b4ab1e4777cb96ac05-face_landmark_model.dat"
+#copy "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/share/opencv4/testdata/cv/face//face_landmark_model.dat" "/Users/brian/.opencv_dir/opencv-4.2.0/.cache/data/7505c44ca4eb54b4ab1e4777cb96ac05-face_landmark_model.dat"

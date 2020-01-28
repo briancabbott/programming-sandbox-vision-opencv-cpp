@@ -1,0 +1,33 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/rapid/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/rapid/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_rapid",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_rapid"
+	}
+}

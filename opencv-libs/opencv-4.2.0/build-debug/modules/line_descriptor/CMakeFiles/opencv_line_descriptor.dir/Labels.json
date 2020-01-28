@@ -1,0 +1,111 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/line_descriptor/include/opencv2/line_descriptor.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_line_descriptor",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/line_descriptor/include/opencv2/line_descriptor/descriptor.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_line_descriptor",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/line_descriptor/src/LSDDetector.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_line_descriptor",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/line_descriptor/src/binary_descriptor.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_line_descriptor",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/line_descriptor/src/binary_descriptor_matcher.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_line_descriptor",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/line_descriptor/src/draw.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_line_descriptor",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/line_descriptor/src/bitarray.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_line_descriptor",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/line_descriptor/src/bitops.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_line_descriptor",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/line_descriptor/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_line_descriptor",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv_contrib/modules/line_descriptor/src/types.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_line_descriptor",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/cvconfig.h"
+		},
+		{
+			"file" : "/Users/brian/.opencv_dir/opencv-4.2.0/build-debug/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_line_descriptor",
+			"Module"
+		],
+		"name" : "opencv_line_descriptor"
+	}
+}
