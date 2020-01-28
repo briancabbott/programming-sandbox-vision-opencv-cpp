@@ -1,0 +1,4 @@
+opencv-libs/opencv-4.2.0/build-debug/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a filter=lfs diff=lfs merge=lfs -text
+opencv-libs/opencv-4.2.0/build-debug/3rdparty/lib/liblibprotobuf.a filter=lfs diff=lfs merge=lfs -text
+opencv-libs/opencv-4.2.0/build-debug/bin/opencv_test_gapi filter=lfs diff=lfs merge=lfs -text
+opencv-libs/opencv-4.2.0/build-debug/share/opencv4/testdata/cv/face/face_landmark_model.dat filter=lfs diff=lfs merge=lfs -text
